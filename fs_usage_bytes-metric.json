@@ -1,0 +1,31 @@
+{
+  "kind": "MetricValueList",
+  "apiVersion": "custom.metrics.k8s.io/v1beta1",
+  "metadata": {
+    "selfLink": "/apis/custom.metrics.k8s.io/v1beta1/namespaces/monitoring/pods/%2A/fs_usage_bytes"
+  },
+  "items": [
+    {
+      "describedObject": {
+        "kind": "Pod",
+        "namespace": "monitoring",
+        "name": "custom-metrics-apiserver-7dd968d85-gzgx5",
+        "apiVersion": "/__internal"
+      },
+      "metricName": "fs_usage_bytes",
+      "timestamp": "2018-10-28T21:57:31Z",
+      "value": "7188480"
+    },
+    {
+      "describedObject": {
+        "kind": "Pod",
+        "namespace": "monitoring",
+        "name": "prometheus-7dff795b9f-pzv74",
+        "apiVersion": "/__internal"
+      },
+      "metricName": "fs_usage_bytes",
+      "timestamp": "2018-10-28T21:57:31Z",
+      "value": "49152"
+    }
+  ]
+}
